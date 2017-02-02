@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D444A6571E43C6F5000E6682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444A6561E43C6F5000E6682 /* AppDelegate.swift */; };
+		D444A6591E43C6F5000E6682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444A6581E43C6F5000E6682 /* ViewController.swift */; };
+		D444A65C1E43C6F5000E6682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D444A65A1E43C6F5000E6682 /* Main.storyboard */; };
+		D444A65E1E43C6F5000E6682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D444A65D1E43C6F5000E6682 /* Assets.xcassets */; };
+		D444A6611E43C6F5000E6682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D444A65F1E43C6F5000E6682 /* LaunchScreen.storyboard */; };
+		D444A66C1E43C6F5000E6682 /* HydrantMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444A66B1E43C6F5000E6682 /* HydrantMapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D444A6681E43C6F5000E6682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D444A64B1E43C6F5000E6682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D444A6521E43C6F5000E6682;
+			remoteInfo = HydrantMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D444A6531E43C6F5000E6682 /* HydrantMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydrantMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444A6561E43C6F5000E6682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D444A6581E43C6F5000E6682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D444A65B1E43C6F5000E6682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D444A65D1E43C6F5000E6682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D444A6601E43C6F5000E6682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D444A6621E43C6F5000E6682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D444A6671E43C6F5000E6682 /* HydrantMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrantMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444A66B1E43C6F5000E6682 /* HydrantMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantMapTests.swift; sourceTree = "<group>"; };
+		D444A66D1E43C6F5000E6682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D444A6501E43C6F5000E6682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444A6641E43C6F5000E6682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D444A64A1E43C6F5000E6682 = {
+			isa = PBXGroup;
+			children = (
+				D444A6551E43C6F5000E6682 /* HydrantMap */,
+				D444A66A1E43C6F5000E6682 /* HydrantMapTests */,
+				D444A6541E43C6F5000E6682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D444A6541E43C6F5000E6682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D444A6531E43C6F5000E6682 /* HydrantMap.app */,
+				D444A6671E43C6F5000E6682 /* HydrantMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D444A6551E43C6F5000E6682 /* HydrantMap */ = {
+			isa = PBXGroup;
+			children = (
+				D444A6561E43C6F5000E6682 /* AppDelegate.swift */,
+				D444A6581E43C6F5000E6682 /* ViewController.swift */,
+				D444A65A1E43C6F5000E6682 /* Main.storyboard */,
+				D444A65D1E43C6F5000E6682 /* Assets.xcassets */,
+				D444A65F1E43C6F5000E6682 /* LaunchScreen.storyboard */,
+				D444A6621E43C6F5000E6682 /* Info.plist */,
+			);
+			path = HydrantMap;
+			sourceTree = "<group>";
+		};
+		D444A66A1E43C6F5000E6682 /* HydrantMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D444A66B1E43C6F5000E6682 /* HydrantMapTests.swift */,
+				D444A66D1E43C6F5000E6682 /* Info.plist */,
+			);
+			path = HydrantMapTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D444A6521E43C6F5000E6682 /* HydrantMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444A6701E43C6F5000E6682 /* Build configuration list for PBXNativeTarget "HydrantMap" */;
+			buildPhases = (
+				D444A64F1E43C6F5000E6682 /* Sources */,
+				D444A6501E43C6F5000E6682 /* Frameworks */,
+				D444A6511E43C6F5000E6682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydrantMap;
+			productName = HydrantMap;
+			productReference = D444A6531E43C6F5000E6682 /* HydrantMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D444A6661E43C6F5000E6682 /* HydrantMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444A6731E43C6F5000E6682 /* Build configuration list for PBXNativeTarget "HydrantMapTests" */;
+			buildPhases = (
+				D444A6631E43C6F5000E6682 /* Sources */,
+				D444A6641E43C6F5000E6682 /* Frameworks */,
+				D444A6651E43C6F5000E6682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D444A6691E43C6F5000E6682 /* PBXTargetDependency */,
+			);
+			name = HydrantMapTests;
+			productName = HydrantMapTests;
+			productReference = D444A6671E43C6F5000E6682 /* HydrantMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D444A64B1E43C6F5000E6682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Stefan Mehnert";
+				TargetAttributes = {
+					D444A6521E43C6F5000E6682 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6U8S5243G;
+						ProvisioningStyle = Automatic;
+					};
+					D444A6661E43C6F5000E6682 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6U8S5243G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D444A6521E43C6F5000E6682;
+					};
+				};
+			};
+			buildConfigurationList = D444A64E1E43C6F5000E6682 /* Build configuration list for PBXProject "HydrantMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D444A64A1E43C6F5000E6682;
+			productRefGroup = D444A6541E43C6F5000E6682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D444A6521E43C6F5000E6682 /* HydrantMap */,
+				D444A6661E43C6F5000E6682 /* HydrantMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D444A6511E43C6F5000E6682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444A6611E43C6F5000E6682 /* LaunchScreen.storyboard in Resources */,
+				D444A65E1E43C6F5000E6682 /* Assets.xcassets in Resources */,
+				D444A65C1E43C6F5000E6682 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444A6651E43C6F5000E6682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D444A64F1E43C6F5000E6682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444A6591E43C6F5000E6682 /* ViewController.swift in Sources */,
+				D444A6571E43C6F5000E6682 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444A6631E43C6F5000E6682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444A66C1E43C6F5000E6682 /* HydrantMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D444A6691E43C6F5000E6682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D444A6521E43C6F5000E6682 /* HydrantMap */;
+			targetProxy = D444A6681E43C6F5000E6682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D444A65A1E43C6F5000E6682 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D444A65B1E43C6F5000E6682 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D444A65F1E43C6F5000E6682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D444A6601E43C6F5000E6682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D444A66E1E43C6F5000E6682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D444A66F1E43C6F5000E6682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D444A6711E43C6F5000E6682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6U8S5243G;
+				INFOPLIST_FILE = HydrantMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sme.HydrantMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D444A6721E43C6F5000E6682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6U8S5243G;
+				INFOPLIST_FILE = HydrantMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sme.HydrantMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D444A6741E43C6F5000E6682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6U8S5243G;
+				INFOPLIST_FILE = HydrantMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sme.HydrantMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrantMap.app/HydrantMap";
+			};
+			name = Debug;
+		};
+		D444A6751E43C6F5000E6682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6U8S5243G;
+				INFOPLIST_FILE = HydrantMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.sme.HydrantMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrantMap.app/HydrantMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D444A64E1E43C6F5000E6682 /* Build configuration list for PBXProject "HydrantMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444A66E1E43C6F5000E6682 /* Debug */,
+				D444A66F1E43C6F5000E6682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D444A6701E43C6F5000E6682 /* Build configuration list for PBXNativeTarget "HydrantMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444A6711E43C6F5000E6682 /* Debug */,
+				D444A6721E43C6F5000E6682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D444A6731E43C6F5000E6682 /* Build configuration list for PBXNativeTarget "HydrantMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444A6741E43C6F5000E6682 /* Debug */,
+				D444A6751E43C6F5000E6682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D444A64B1E43C6F5000E6682 /* Project object */;
+}
