@@ -13,6 +13,7 @@
 		D444A65E1E43C6F5000E6682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D444A65D1E43C6F5000E6682 /* Assets.xcassets */; };
 		D444A6611E43C6F5000E6682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D444A65F1E43C6F5000E6682 /* LaunchScreen.storyboard */; };
 		D444A66C1E43C6F5000E6682 /* HydrantMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444A66B1E43C6F5000E6682 /* HydrantMapTests.swift */; };
+		D444A6781E43C8D8000E6682 /* hydranten.json in Resources */ = {isa = PBXBuildFile; fileRef = D444A6771E43C8D8000E6682 /* hydranten.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D444A6671E43C6F5000E6682 /* HydrantMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrantMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D444A66B1E43C6F5000E6682 /* HydrantMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantMapTests.swift; sourceTree = "<group>"; };
 		D444A66D1E43C6F5000E6682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D444A6771E43C8D8000E6682 /* hydranten.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hydranten.json; path = Assets/hydranten.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D444A6551E43C6F5000E6682 /* HydrantMap */ = {
 			isa = PBXGroup;
 			children = (
+				D444A6761E43C8BC000E6682 /* Files */,
 				D444A6561E43C6F5000E6682 /* AppDelegate.swift */,
 				D444A6581E43C6F5000E6682 /* ViewController.swift */,
 				D444A65A1E43C6F5000E6682 /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				D444A66D1E43C6F5000E6682 /* Info.plist */,
 			);
 			path = HydrantMapTests;
+			sourceTree = "<group>";
+		};
+		D444A6761E43C8BC000E6682 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D444A6771E43C8D8000E6682 /* hydranten.json */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				D444A6611E43C6F5000E6682 /* LaunchScreen.storyboard in Resources */,
 				D444A65E1E43C6F5000E6682 /* Assets.xcassets in Resources */,
 				D444A65C1E43C6F5000E6682 /* Main.storyboard in Resources */,
+				D444A6781E43C8D8000E6682 /* hydranten.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
