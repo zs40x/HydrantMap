@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        hydrantsFromJSONFile()
+        let hydrants = hydrantsFromJSONFile()
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,38 +29,35 @@ class ViewController: UIViewController {
 
     private func hydrantsFromJSONFile() -> [Hydrant]? {
         
-        guard let directory = FileManager.default.urls(for: .applicationDirectory, in: .userDomainMask).first else { return nil }
-    
         do{
-            let fileContent =
-                try String(contentsOf: directory.appendingPathComponent("hydranten.json"), encoding: String.Encoding.utf8)
+            guard let hydrantJSONFile = Bundle.main.url(forResource:"hydranten", withExtension: "json") else { return nil }
+            
+            let fileContent = try String(contentsOf: hydrantJSONFile, encoding: String.Encoding.utf8)
             
             guard
                 let data = fileContent.data(using: .utf8),
-                let hydrantJSONArray = try? JSONSerialization.jsonObject(with: data, options: []) as? [String]
+            let hydrantJSONArray = try? JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]]
                 else { return nil }
+            
+            return hydrantJSONArray?.flatMap({
+                guard let pair = $0 as? [String:String] else {return nil    }
+                return makeHydrant(jsonDict: pair)
+            })
             
         } catch {
             NSLog(error.localizedDescription)
             return nil
         }
+    }
+    
+    private func makeHydrant(jsonDict: [String:String]) -> Hydrant? {
         
-      
+        guard
+            let longiture = Double(jsonDict["Longitude"] ?? "0"),
+            let latitude = Double(jsonDict["Latitude"] ?? "0")
+            else { return nil }
         
-        
-        /*return
-            hydrantJSONArray.flatMap{
-                guard
-                    let data = $0.data(using: .utf8),
-                    let jsonDict = try? JSONSerialization.data(with: data, options: []) as? [String:String],
-                    let longiture = jsonDict?["longitude"],
-                    let latitude = jsonDict?["latitude"]
-                    else { return nil }
-
-                return Hydrant(latitude: latitude, longitude: longiture)
-            }*/
-        
-        return nil
+        return Hydrant(latitude: latitude, longitude: longiture)
     }
 }
 
